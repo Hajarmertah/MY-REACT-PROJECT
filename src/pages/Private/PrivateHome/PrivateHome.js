@@ -9,7 +9,7 @@ export default function PrivateHome() {
         LINK IT TO GRAPHES
       </h1>
       <Link to={{pathname: "/BarChart"}} className='navbar-brand'>Entreprise X</Link>
-      <img src={cat} />
+       <img src={cat} />
     </div>
   )
 }
