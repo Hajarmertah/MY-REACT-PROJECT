@@ -11,7 +11,6 @@ import PrivateHome from "./pages/Private/PrivateHome/PrivateHome"
 function App() {
   return (
     < >
-     
       <SignUpModal/>
       <SignInModal/>
       <Navbar/>
@@ -22,6 +21,7 @@ function App() {
         </Route>
         <Route path="/Barchart" element={<Barchart/>}/>
        </Routes>
+      <style/>
     </>
   );
 }

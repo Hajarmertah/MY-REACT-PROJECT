@@ -5,6 +5,8 @@ import {signOut} from "firebase/auth"
 import { useNavigate } from 'react-router-dom'
 import {auth} from "../firebase-config"
 
+
+
 export default function Navbar() {
 
    const {toggleModals} = useContext(UserContext)
@@ -26,7 +28,6 @@ export default function Navbar() {
          className="navbar-brand">
              ACTIONS
          </Link>
-
          <div>
              <button
              onClick={() => toggleModals("signUp")}
@@ -45,6 +46,8 @@ export default function Navbar() {
              </button>
 
          </div>
+        
+        
       </nav>  
     )
 }
