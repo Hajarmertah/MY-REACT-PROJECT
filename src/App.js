@@ -6,11 +6,13 @@ import SignUpModal from "./components/SignUpModal";
 import SignInModal from "./components/SignInModal"
 import Private from "./pages/Private/Private"
 import PrivateHome from "./pages/Private/PrivateHome/PrivateHome"
+import Style from "./components/Style"
 
 
 function App() {
   return (
     < >
+      <Style/>
       <SignUpModal/>
       <SignInModal/>
       <Navbar/>
@@ -21,7 +23,6 @@ function App() {
         </Route>
         <Route path="/Barchart" element={<Barchart/>}/>
        </Routes>
-      <style/>
     </>
   );
 }

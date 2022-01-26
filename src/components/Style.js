@@ -1,7 +1,7 @@
 import React from 'react';
-import bgimage from './bgimage'
+import bgimage from './Images/bgimage'
 
-const style= () => {
+const Style= () => {
     return(
         <div id="style" className="style">
             <div className="overlay" style={{background: `url(${bgimage})`}}/>
@@ -11,4 +11,4 @@ const style= () => {
 
 }
 
-export default style
+export default Style
