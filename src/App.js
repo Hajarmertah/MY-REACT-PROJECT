@@ -6,13 +6,11 @@ import SignUpModal from "./components/SignUpModal";
 import SignInModal from "./components/SignInModal"
 import Private from "./pages/Private/Private"
 import PrivateHome from "./pages/Private/PrivateHome/PrivateHome"
-import Styles from "./components/Styles"
-
 
 function App() {
   return (
     < >
-      <Styles/>
+      
       <SignUpModal/>
       <SignInModal/>
       <Navbar/>
