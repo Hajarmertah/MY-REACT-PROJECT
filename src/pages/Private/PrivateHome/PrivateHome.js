@@ -8,7 +8,7 @@ export default function PrivateHome() {
       <h1 className="display-3 text-light mb-4">
         Les Entreprises
       </h1>
-      <Link to={{pathname: "/BarChart"}} className='navbar-brand'>Entreprise X</Link>
+      <Link to={{pathname: "/BarChart"}} className='display-5 text-light mb-4'>Entreprise X</Link>
        
     </div>
   )
