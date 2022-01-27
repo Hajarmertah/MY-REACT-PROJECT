@@ -12,10 +12,10 @@ import Styles from "./components/Styles"
 function App() {
   return (
     < >
+      
       <SignUpModal/>
       <SignInModal/>
       <Navbar/>
-       <Styles/>
        <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/private" element={<Private/>}>
@@ -23,7 +23,7 @@ function App() {
         </Route>
         <Route path="/Barchart" element={<Barchart/>}/>
        </Routes>
-      
+    
     </>
   );
 }
