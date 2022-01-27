@@ -12,7 +12,7 @@ import Styles from "./components/Styles"
 function App() {
   return (
     < >
-      
+      <Styles/>
       <SignUpModal/>
       <SignInModal/>
       <Navbar/>

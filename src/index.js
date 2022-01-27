@@ -9,6 +9,7 @@ ReactDOM.render(
  
   <BrowserRouter> 
   <UserContextProvider>
+    <Styles/>
     <App />
   </UserContextProvider>
   
