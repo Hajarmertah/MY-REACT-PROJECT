@@ -34,7 +34,7 @@ render(){
              <h1 className="h1">Diagramme représantant la valeur de l'entreprise X cette année</h1>
                
             <div className="graph">
-                <BarChart width={1000} height={600} data={data}>
+                <BarChart width={900} height={500} data={data}>
                     <Bar dataKey="valeur" fill="green" />
                     <CartesianGrid stroke="#ccc" />
                     <XAxis dataKey="mois" />
