@@ -8,9 +8,6 @@ export default function Home() {
     return (
         
         <div className= "container p-5">
-            
-           <div className="overlay" style={{background: `url('src/components/Images/bgimage')`}}/>
-          
            <h1 className="display-3 text-light">
                {currentUser ? "Welcome buddy" : "Hi, Sign Up or Sign In" }
             </h1>  
