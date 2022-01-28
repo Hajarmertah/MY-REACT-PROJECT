@@ -11,7 +11,7 @@ class Barchart5 extends React.Component {
         };
     }
     
-        componentDidMount(){
+        componentDidMount() {
             
             fetch('/posts5')
             .then((res)=>{
