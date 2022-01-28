@@ -1,0 +1,13 @@
+.graph{
+    padding: 30px;
+    margin-left: 250px;
+}
+.h1{
+   display: flex;
+   justify-content: center;
+   margin-top: 0;
+   color: beige;
+}
+.cont{
+    background-color: black;
+}
