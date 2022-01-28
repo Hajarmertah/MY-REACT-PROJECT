@@ -3,7 +3,7 @@ import { Routes,Route, BrowserRouter } from "react-router-dom";
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis } from 'recharts';
 import './comp.css';
 
-class Barchart5 extends React.Component {
+class Barchart5 extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
