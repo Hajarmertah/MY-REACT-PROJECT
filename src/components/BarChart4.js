@@ -35,8 +35,6 @@ class Barchart4 extends React.Component {
         empVal.push(parseFloat(dataObj.Valeur));
       }
     
-    console.log(empVal)
-
 
             var data = [
                
@@ -72,7 +70,7 @@ class Barchart4 extends React.Component {
                 <>
                 
 
-                     <h1 className="h1">Diagramme représentant la valeur de l'entreprise X cette année</h1>
+                     <h1 className="h1">Diagramme représentant la valeur de l'entreprise 4 cette année</h1>
                     <div className="graph">
                         <BarChart width={1000} height={550} data={data}>
                             <Bar dataKey= "valeur" fill="green" />
