@@ -32,7 +32,7 @@ class Barchart extends React.Component {
     let empVal=[]
     for (const dataObj of this.state.post.map((posts,index)=>{return (posts)})) {
         empMois.push(dataObj.Mois);
-        empVal.push(parseFloat(dataObj.Valeur));
+        empVal.push(parseFloat(dataObj.Valeur)); 
       }
 
             var data = [

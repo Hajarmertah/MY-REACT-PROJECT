@@ -34,6 +34,7 @@ class Barchart2 extends React.Component{
         empMois.push(dataObj.Mois);
         empVal.push(parseFloat(dataObj.Valeur));
       }
+    
 
 
             var data = [

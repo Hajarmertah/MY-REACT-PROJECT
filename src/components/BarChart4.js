@@ -36,6 +36,7 @@ class Barchart4 extends React.Component {
       }
     
 
+
             var data = [
                
                 {mois:empMois[0],
